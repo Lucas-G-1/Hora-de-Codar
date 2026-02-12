@@ -48,14 +48,14 @@ int main(){
 
         if (escolhaComputador == escolherJogador)
         {
-            printf("### Jogo empatou! ###\n");
+            printf("### Jogo empatou! ###\n\n");
         } else if ((escolherJogador == 1) && (escolhaComputador == 3) || 
         (escolherJogador == 2) && (escolhaComputador == 1) || 
         (escolherJogador == 3) && (escolhaComputador == 2))
         {
-            printf("### Parabéns, você ganhou!\n");
+            printf("### Parabéns, você ganhou!###\n\n");
         } else {
-            printf("### Você perdeu! ###\n");;
+            printf("### Você perdeu! ###\n\n");
         }
         
         
