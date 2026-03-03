@@ -42,7 +42,7 @@ int main (){
   {
     printf("%d x %d = %d\n", i, numero, i*numero);
   }
- */ 
+  */
   
    return 0;
 }
