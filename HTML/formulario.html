@@ -8,11 +8,11 @@
         <fieldset>
             <legend>Dados Gerais</legend>
             <label for="nome">Nome:</label>
-            <input type="text" minlegth="3" id:"Nome"/>
+            <input type="text" minlegth="3" id="Nome" />
             <label for="data_nascimento">Data de nascimento:</label>
             <input type="text" id="data_nascimento"/>
             <label for ="cpf"> CPF:</label>
-            <input type="cpf" minlength="11" id:"cpf"/>
+            <input type="cpf" minlength="11" id="cpf" />
         </fieldset>
         <fieldset>
             <legend>Endereço</legend>
@@ -24,9 +24,20 @@
                 <option value="">Outros</option>
             </select>
             <label for="logadouro_endereco">Logradouro</label>
-            <input type:"text" id:"logradouro_endereco"/>
-            <label for+"numero_endereco">Numero:</label>
-            <input type="text"
+            <input type="text" id="logradouro_endereco" />
+            <label for="numero_endereco">Numero:</label>
+            <input type="text" id="numero_endereco" />
+            <label for="complemento_endereco">Complemento:</label>
+            <input type="text" id="complemento_endereco" />
+        </fieldset>
+        <fieldset>
+            <legend>Fale Conosco</legend>
+            <label for="msg">Mensagem: </label>
+            <textarea type="text" id:"msg"></textarea>
+        </fieldset>
+        <fieldset>
+            <button type="submit">Enviar sua mensagem</button>
+            <button type="reset">Limpar o Formulario</button>
         </fieldset>
     </form>
 </body>
